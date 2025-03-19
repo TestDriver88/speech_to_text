@@ -12,7 +12,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.csdcorp.speech_to_text'
+    namespace "https://github.com/TestDriver88/speech_to_text/tree/main/speech_to_text"
+    // ... restliche Konfigurationen
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
